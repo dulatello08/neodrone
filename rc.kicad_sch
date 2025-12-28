@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db05d627-8041-429f-826a-bd1b578b7de9")
+	(paper "A4")
+	(title_block
+		(date "2025-12-23")
+		(rev "v1")
+		(company "NeoDrone")
+		(comment 1 "Made by Dulat Sarbassov")
+		(comment 2 "dulatello08")
+	)
+	(lib_symbols)
+)

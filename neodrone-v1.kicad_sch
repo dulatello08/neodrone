@@ -1,0 +1,234 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ec430d83-72cd-4950-a197-fb5338d7c552")
+	(paper "A4")
+	(title_block
+		(title "NeoDrone V1 - The PCB Drone")
+		(date "2025-12-23")
+		(rev "v1")
+		(company "NeoDrone")
+		(comment 1 "Made by Dulat Sarbassov")
+		(comment 2 "dulatello08")
+	)
+	(lib_symbols)
+	(sheet
+		(at 34.29 92.71)
+		(size 39.37 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b9cbd38-af89-4db4-8e2c-ab0ba94ad134")
+		(property "Sheetname" "imu"
+			(at 34.29 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 34.29 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 24.13)
+		(size 34.29 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88920746-bef0-4f3e-8bac-9af27e6bf079")
+		(property "Sheetname" "power"
+			(at 34.29 23.4184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 34.29 57.7346 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 22.86)
+		(size 35.56 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91a2a763-470d-4a4d-9e8e-b9069d2f4064")
+		(property "Sheetname" "mcu"
+			(at 114.3 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 114.3 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 97.79)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b94dd048-e648-4a17-b37c-6f29cafaf69f")
+		(property "Sheetname" "motor_esc"
+			(at 228.6 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_esc.kicad_sch"
+			(at 228.6 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 19.05)
+		(size 52.07 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be011dca-2643-4e01-a37d-4d0d0cf0d6d5")
+		(property "Sheetname" "rc"
+			(at 224.79 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rc.kicad_sch"
+			(at 224.79 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
