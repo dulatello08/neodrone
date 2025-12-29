@@ -14,6 +14,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 161.29 93.98)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "095f9007-0d78-4904-a8f3-9d4f0ede6e86")
+		(property "Sheetname" "motor_esc2"
+			(at 161.29 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_esc2.kicad_sch"
+			(at 161.29 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 34.29 92.71)
 		(size 39.37 34.29)
 		(exclude_from_sim no)
@@ -51,6 +93,48 @@
 			(project "neodrone-v1"
 				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 93.98)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5309c33a-104d-4310-9f83-d2d2a7130124")
+		(property "Sheetname" "motor_esc4"
+			(at 242.57 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_esc4.kicad_sch"
+			(at 242.57 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "8")
 				)
 			)
 		)
@@ -100,6 +184,48 @@
 		)
 	)
 	(sheet
+		(at 203.2 93.98)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e4317d2-4bd9-4cda-9d68-812eca0aa468")
+		(property "Sheetname" "motor_esc3"
+			(at 203.2 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_esc3.kicad_sch"
+			(at 203.2 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 114.3 22.86)
 		(size 35.56 29.21)
 		(exclude_from_sim no)
@@ -142,7 +268,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 97.79)
+		(at 115.57 93.98)
 		(size 35.56 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -158,7 +284,7 @@
 		)
 		(uuid "b94dd048-e648-4a17-b37c-6f29cafaf69f")
 		(property "Sheetname" "motor_esc1"
-			(at 228.6 97.0784 0)
+			(at 115.57 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,8 +292,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "motor_esc.kicad_sch"
-			(at 228.6 132.6646 0)
+		(property "Sheetfile" "motor_esc1.kicad_sch"
+			(at 115.57 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +346,7 @@
 		(instances
 			(project "neodrone-v1"
 				(path "/ec430d83-72cd-4950-a197-fb5338d7c552"
-					(page "6")
+					(page "9")
 				)
 			)
 		)

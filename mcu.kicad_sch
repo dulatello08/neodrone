@@ -2138,7 +2138,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2eb4adcb-9619-4298-baf1-0f7072c392f3")
+		(uuid "2eb4adcb-9619-4298-baf1-0f7072c392f4")
 	)
 	(label "USB_DP"
 		(at 95.25 156.21 180)
@@ -2158,7 +2158,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c83c9905-c59c-4ecb-a2cc-8381ee61d86d")
+		(uuid "c83c9905-c59c-4ecb-a2cc-8381ee61d86e")
 	)
 	(global_label "M1_PWM"
 		(shape input)
@@ -2214,7 +2214,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149b")
+		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7457 118.11 0)
 			(effects
@@ -2236,7 +2236,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149b")
+		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.0076 128.27 0)
 			(effects
@@ -2258,7 +2258,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149b")
+		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.431 125.73 0)
 			(effects
@@ -2280,7 +2280,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149b")
+		(uuid "2ef16a67-e96a-4c3f-8167-6f38846b149f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3143 123.19 0)
 			(effects
