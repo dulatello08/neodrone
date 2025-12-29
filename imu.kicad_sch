@@ -908,7 +908,7 @@
 		(uuid "d04c7254-eb7f-4a45-a43b-f64c293f271d")
 	)
 	(global_label "IMU_SCK"
-		(shape input)
+		(shape output)
 		(at 138.43 68.58 90)
 		(fields_autoplaced yes)
 		(effects
@@ -930,7 +930,7 @@
 		)
 	)
 	(global_label "IMU_MOSI"
-		(shape input)
+		(shape output)
 		(at 143.51 68.58 90)
 		(fields_autoplaced yes)
 		(effects
@@ -952,7 +952,7 @@
 		)
 	)
 	(global_label "IMU_CS"
-		(shape input)
+		(shape output)
 		(at 135.89 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -974,7 +974,7 @@
 		)
 	)
 	(global_label "IMU_INT"
-		(shape input)
+		(shape output)
 		(at 143.51 107.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -996,7 +996,7 @@
 		)
 	)
 	(global_label "IMU_MISO"
-		(shape input)
+		(shape output)
 		(at 140.97 68.58 90)
 		(fields_autoplaced yes)
 		(effects

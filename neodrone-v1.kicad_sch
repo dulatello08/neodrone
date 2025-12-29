@@ -157,7 +157,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b94dd048-e648-4a17-b37c-6f29cafaf69f")
-		(property "Sheetname" "motor_esc"
+		(property "Sheetname" "motor_esc1"
 			(at 228.6 97.0784 0)
 			(effects
 				(font
