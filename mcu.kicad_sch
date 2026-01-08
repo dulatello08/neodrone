@@ -1855,10 +1855,6 @@
 		(uuid "62215fcf-ac0f-4294-b866-ecea745d509d")
 	)
 	(no_connect
-		(at 95.25 130.81)
-		(uuid "8b3b055c-8ad5-41aa-ae54-2637a03ff1d5")
-	)
-	(no_connect
 		(at 130.81 151.13)
 		(uuid "8f697c28-81b4-46c1-b92d-c77dc1070f43")
 	)
@@ -2305,6 +2301,28 @@
 		(uuid "33d3b67d-62ea-4479-b1c2-51e1a95d7dd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.1935 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRVOFF_ALL"
+		(shape input)
+		(at 95.25 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bc60325-f7d2-4354-9c5e-49efde896eb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.0161 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
