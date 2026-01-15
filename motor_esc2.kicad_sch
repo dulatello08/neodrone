@@ -1557,12 +1557,6 @@
 		)
 	)
 	(junction
-		(at 160.02 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b356bf4-f807-4104-99f6-61dbfe63cd45")
-	)
-	(junction
 		(at 97.79 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1579,12 +1573,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67a6af5a-3e2e-423a-9409-dc71d4eda2ed")
-	)
-	(junction
-		(at 101.6 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c77f242b-8eda-4f2e-ab43-6687e503d698")
 	)
 	(junction
 		(at 102.87 82.55)
@@ -1658,6 +1646,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e6c880-1e27-4013-b2a6-5c59f9075414")
+	)
+	(wire
+		(pts
 			(xy 158.75 69.85) (xy 158.75 66.04)
 		)
 		(stroke
@@ -1665,16 +1663,6 @@
 			(type default)
 		)
 		(uuid "2150f897-a3b8-4f58-bb99-3f88c1c7cfcd")
-	)
-	(wire
-		(pts
-			(xy 166.37 41.91) (xy 166.37 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21723b7a-4dd1-456b-8de1-d3adcb03a34b")
 	)
 	(wire
 		(pts
@@ -1788,16 +1776,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 41.91) (xy 96.52 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e982405-b2f6-45d4-8281-440dfcd45a27")
-	)
-	(wire
-		(pts
 			(xy 171.45 124.46) (xy 95.25 124.46)
 		)
 		(stroke
@@ -1805,16 +1783,6 @@
 			(type default)
 		)
 		(uuid "614b716d-3675-46ff-b2cb-3d2b5155130f")
-	)
-	(wire
-		(pts
-			(xy 100.33 78.74) (xy 101.6 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e90f9f-4670-4568-80f9-3c0a296d6a6e")
 	)
 	(wire
 		(pts
@@ -1858,16 +1826,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 57.15) (xy 160.02 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74266619-b06c-4d1d-90d2-41ac5c0798d5")
-	)
-	(wire
-		(pts
 			(xy 170.18 123.19) (xy 97.79 123.19)
 		)
 		(stroke
@@ -1875,26 +1833,6 @@
 			(type default)
 		)
 		(uuid "7b967643-f076-4432-ba4a-e5388fd42502")
-	)
-	(wire
-		(pts
-			(xy 100.33 77.47) (xy 100.33 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d77b727-9f53-4e8c-b0d6-cfc022bab8b5")
-	)
-	(wire
-		(pts
-			(xy 96.52 41.91) (xy 96.52 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84f45b25-51ae-4e75-b386-498f9d8da169")
 	)
 	(wire
 		(pts
@@ -1978,16 +1916,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a0b17a-017a-472d-b6f5-62c1036ad166")
-	)
-	(wire
-		(pts
 			(xy 203.2 48.26) (xy 196.85 48.26)
 		)
 		(stroke
@@ -1995,16 +1923,6 @@
 			(type default)
 		)
 		(uuid "a50e0229-ffee-4dad-baa8-91f065a6b43e")
-	)
-	(wire
-		(pts
-			(xy 160.02 57.15) (xy 160.02 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a60953-caa1-4a89-ba4b-eb8f91078d96")
 	)
 	(wire
 		(pts
@@ -2035,16 +1953,6 @@
 			(type default)
 		)
 		(uuid "b231c1a5-f7cd-4c8e-afd1-5bb3e198880a")
-	)
-	(wire
-		(pts
-			(xy 101.6 80.01) (xy 109.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24c9260-cb94-448b-a807-67f0a9caa76c")
 	)
 	(wire
 		(pts
@@ -2406,22 +2314,22 @@
 	)
 	(global_label "DRVOFF_ALL"
 		(shape input)
-		(at 100.33 77.47 90)
+		(at 100.33 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8a0db841-44d7-426f-b05a-364279e780df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 63.2361 90)
+			(at 86.0961 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2579,74 +2487,6 @@
 			(project "neodrone-v1"
 				(path "/ec430d83-72cd-4950-a197-fb5338d7c552/095f9007-0d78-4904-a8f3-9d4f0ede6e86"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 99.06 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "087568af-3a7d-4058-ae75-c378e3fa6435")
-		(property "Reference" "R7"
-			(at 99.06 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.06 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe68bfd5-0278-4bbc-83d5-f10eaad76b5d")
-		)
-		(pin "1"
-			(uuid "c820101c-8171-481c-804f-e038d2cf3a2b")
-		)
-		(instances
-			(project "neodrone-v1"
-				(path "/ec430d83-72cd-4950-a197-fb5338d7c552/095f9007-0d78-4904-a8f3-9d4f0ede6e86"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3117,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 106.68 77.47 0)
 			(effects
 				(font
@@ -3126,7 +2966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 106.68 77.47 0)
 			(effects
 				(font
@@ -3135,7 +2975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 106.68 77.47 0)
 			(effects
 				(font

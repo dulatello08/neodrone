@@ -1763,6 +1763,12 @@
 		(uuid "34085676-d30c-48e5-8977-c4f0256bea1d")
 	)
 	(junction
+		(at 80.01 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43499e03-c35c-439b-ab8f-eb15236f6d30")
+	)
+	(junction
 		(at 91.44 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1905,6 +1911,16 @@
 			(type default)
 		)
 		(uuid "15fa4177-58fb-405f-a279-89ec0f49e788")
+	)
+	(wire
+		(pts
+			(xy 80.01 130.81) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb2a1c0-d4a4-4157-9bbe-ee4002b26fce")
 	)
 	(wire
 		(pts
@@ -2116,25 +2132,15 @@
 		)
 		(uuid "c307b222-6c16-4a80-b151-869ce16928c6")
 	)
-	(label "CRSF_RX"
-		(at 95.25 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 76.2 130.81) (xy 80.01 130.81)
 		)
-		(uuid "2eb4adcb-9619-4298-baf1-0f7072c392f3")
-	)
-	(label "CRSF_TX"
-		(at 95.25 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "2eb4adcb-9619-4298-baf1-0f7072c392f4")
+		(uuid "dedb4060-9468-40a5-b760-4359a020056c")
 	)
 	(label "USB_DP"
 		(at 95.25 156.21 180)
@@ -2169,6 +2175,28 @@
 		(uuid "0415e19a-f1ff-43f9-9751-dd3d57dcb3d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.1935 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CRSF_RX"
+		(shape input)
+		(at 95.25 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "060bc382-8c63-4d65-9fe8-2bbcc3f645e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9796 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,9 +2338,31 @@
 			)
 		)
 	)
+	(global_label "CRSF_TX"
+		(shape input)
+		(at 95.25 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58345cd4-d2e9-4134-84f6-885e388c39ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.282 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRVOFF_ALL"
 		(shape input)
-		(at 95.25 130.81 180)
+		(at 76.2 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2322,7 +2372,7 @@
 		)
 		(uuid "8bc60325-f7d2-4354-9c5e-49efde896eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0161 130.81 0)
+			(at 61.9661 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2567,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "25bfcf56-0e81-45c2-ad88-e8db9fe8963e")
 		(property "Reference" "R2"
 			(at 83.82 160.02 90)
@@ -2536,7 +2585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 83.82 166.37 0)
 			(effects
 				(font
@@ -2545,7 +2594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 166.37 0)
 			(effects
 				(font
@@ -2554,7 +2603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 83.82 166.37 0)
 			(effects
 				(font
@@ -3251,6 +3300,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7915363f-1335-4d2c-bb52-643cb952800d")
+		(property "Reference" "R4"
+			(at 73.66 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.708 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f47046e-1359-4719-a6f0-f688d291d7e7")
+		)
+		(pin "1"
+			(uuid "47b0d8df-7d79-4a9d-83c3-eb8913f6c6e6")
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552/91a2a763-470d-4a4d-9e8e-b9069d2f4064"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 85.09 90)
 		(unit 1)
@@ -3414,7 +3531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical_SMD_Pin1Left"
 			(at 73.66 163.83 0)
 			(effects
 				(font
@@ -3629,7 +3746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.63 176.53 0)
 			(effects
 				(font
@@ -3638,7 +3755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 176.53 0)
 			(effects
 				(font
@@ -3647,7 +3764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 87.63 176.53 0)
 			(effects
 				(font
@@ -3732,6 +3849,72 @@
 			(project ""
 				(path "/ec430d83-72cd-4950-a197-fb5338d7c552/91a2a763-470d-4a4d-9e8e-b9069d2f4064"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1687177-3854-48e4-90ff-d4d96b399058")
+		(property "Reference" "#PWR012"
+			(at 80.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.216 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9edebcea-02a9-409f-9955-904425cf5562")
+		)
+		(instances
+			(project "neodrone-v1"
+				(path "/ec430d83-72cd-4950-a197-fb5338d7c552/91a2a763-470d-4a4d-9e8e-b9069d2f4064"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
