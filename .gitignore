@@ -1,7 +1,16 @@
-_autosave-mcu.kicad_sch
-_autosave-motor_esc.kicad_sch
-'~neodrone-v1.kicad_sch.lck'
-'~neodrone-v1.kicad_pcb.lck'
-'#auto_saved_files#'
 .DS_Store
-neodrone-v1-backups
+
+# KiCad autosave/lock/cache files
+_autosave-*.kicad_sch
+_autosave-*.kicad_pcb
+~*.kicad_sch.lck
+~*.kicad_pcb.lck
+#auto_saved_files#
+fp-info-cache
+
+# Generated outputs we do not keep in git
+production/
+*.gbr
+*.gbrjob
+*.drl
+hardware/backups/
